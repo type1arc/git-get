@@ -1,1 +1,0 @@
-/usr/sbin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/repo-search.dir/link.d "CMakeFiles/repo-search.dir/src/main.cpp.o" "CMakeFiles/repo-search.dir/src/github.cpp.o" "CMakeFiles/repo-search.dir/src/ui.cpp.o" -o repo-search  /usr/lib/libcurl.so /usr/lib/libcurl.so /usr/lib/libncursesw.so

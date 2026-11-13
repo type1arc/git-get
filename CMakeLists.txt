@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(repo_search LANGUAGES CXX)
+project(gg LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -9,10 +9,10 @@ find_package(CURL REQUIRED)
 find_package(PkgConfig REQUIRED)
 pkg_check_modules(NCURSES REQUIRED IMPORTED_TARGET ncursesw)
 
-add_executable(repo-search
+add_executable(gg
     src/main.cpp
     src/github.cpp
     src/ui.cpp
 )
-target_include_directories(repo-search PRIVATE third_party)
-target_link_libraries(repo-search PRIVATE CURL::libcurl PkgConfig::NCURSES)
+target_include_directories(gg PRIVATE third_party)
+target_link_libraries(gg PRIVATE CURL::libcurl PkgConfig::NCURSES)

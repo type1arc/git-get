@@ -1,3 +1,0 @@
-/home/typeiso/pproj/repo-search/build/CMakeFiles/repo-search.dir
-/home/typeiso/pproj/repo-search/build/CMakeFiles/edit_cache.dir
-/home/typeiso/pproj/repo-search/build/CMakeFiles/rebuild_cache.dir
