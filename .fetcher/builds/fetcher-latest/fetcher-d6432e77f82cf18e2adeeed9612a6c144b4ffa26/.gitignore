@@ -1,9 +1,0 @@
-target/
-Cargo.lock
-AppDir/
-fetcher.tar.gz
-.fetcher/
-.fcache/
-.local/
-util/
-fetcher-x86_64.AppImage
